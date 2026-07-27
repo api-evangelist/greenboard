@@ -1,8 +1,29 @@
 aid: greenboard
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greenboard.png
 name: Greenboard
-description: Greenboard is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Greenboard is an AI-native compliance software platform for SEC- and
+  FINRA-regulated financial institutions, consolidating communications
+  archiving, employee compliance monitoring, marketing/advertising review,
+  firm-wide compliance management, and third-party (vendor) compliance into a
+  single system of action. It serves independent advisors, RIAs, hedge funds,
+  private funds, and broker-dealers, automating regulatory workflows and
+  reducing review times. Greenboard is a General Catalyst portfolio company.
+  Its product is delivered as a hosted SaaS application; no public developer
+  API, OpenAPI specification, or developer portal is published at this time, so
+  this profile captures corporate identity, trust/compliance posture (SOC 2
+  Type II), and domain security rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/greenboard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Compliance
+- RegTech
+- Financial Services
+- SEC
+- FINRA
+- Communications Archiving
+- Governance
+- Risk
+- Artificial Intelligence
 apis: []
+common:
+- type: TrustCenter
+  url: security/greenboard-trust-center.yml
+- type: DomainSecurity
+  url: security/greenboard-domain-security.yml
+- type: Website
+  url: https://www.greenboard.com
+- type: Blog
+  url: https://www.greenboard.com/blog
+- type: Support
+  url: https://www.greenboard.com/support
+- type: SignUp
+  url: https://www.greenboard.com/book-a-demo
+- type: TermsOfService
+  url: https://www.greenboard.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.greenboard.com/privacy-policy
+- type: Compliance
+  url: https://trust.greenboard.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

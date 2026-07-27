@@ -1,0 +1,39 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.greenboard.com/
+url: https://trust.greenboard.com/
+description: >-
+  Greenboard's trust center (trust.greenboard.com) publishes its security and
+  compliance posture for SEC/FINRA-regulated customers. The company is SOC 2
+  Type II compliant; the SOC 2 Type II auditor's report and a 2025 penetration
+  test report are available on request. The page documents security controls
+  across change management, availability, organizational management,
+  confidentiality, vulnerability management, incident response, risk
+  assessment, network security, access security, physical security, and
+  communications, and lists its subprocessors.
+certifications:
+- name: SOC 2 Type II
+  availability: on request
+  document: SOC 2 Type 2 Auditor's Report
+- name: Penetration Test
+  year: 2025
+  availability: on request
+  note: Third-party penetration test report (security assessment, not a certification).
+subprocessors:
+- {name: AWS, purpose: cloud infrastructure}
+- {name: Azure, purpose: cloud AI services}
+- {name: Snowflake, purpose: cloud data warehouse}
+- {name: Stripe, purpose: payment processing}
+- {name: Plaid, purpose: brokerage feeds}
+- {name: HubSpot, purpose: CRM and marketing automation}
+- {name: Pylon, purpose: customer service ticketing}
+- {name: Sentry, purpose: client-side error tracking}
+- {name: PostHog, purpose: product analytics and event tracking}
+evidence:
+- source: https://trust.greenboard.com/
+  keywords:
+  - soc 2
+  - soc2
+  - trust center
+  - penetration test
