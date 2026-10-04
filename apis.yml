@@ -49,12 +49,12 @@ tags:
 - Company
 - Compliance
 - RegTech
-- Financial-Services
+- Financial Services
 - SEC
 - FINRA
 - Communications Archiving
 - Governance
-- Risk
+- Risk Management
 - Artificial Intelligence
 tags_raw:
 - Company
@@ -67,6 +67,7 @@ tags_raw:
 - Governance
 - Risk
 - Artificial Intelligence
+- Financial-Services
 apis: []
 common:
 - type: TrustCenter
